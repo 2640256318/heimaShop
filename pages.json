@@ -22,7 +22,8 @@
     "style": {
       "enablePullDownRefresh": false
     }
-  }],
+  }
+    ],
   "subPackages": [
     {
       "root": "subpkg",
