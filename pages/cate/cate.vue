@@ -1,9 +1,10 @@
 <template>
   <view>
+    <my-search :bgcolor="'#C00000'" :radius="20" @myClick="myClickHandel"></my-search>
     <view class="scroll-view-container">
       <!-- 左侧的滑动区 -->
       <scroll-view scroll-y="true" :style="{height: wh + 'px'}" class="left-scroll-view">
-        <block v-for="(item,index) in cateList" :key="index" >
+        <block v-for="(item,indpinkex) in cateList" :key="index" >
           <view :class="['left-scroll-view-item',index === active ? 'active' : '']" @click="activeChange(index)">{{item.cat_name}}</view>
         </block>
       </scroll-view>
@@ -36,7 +37,7 @@
     },
     onLoad() {
       const test = uni.getSystemInfoSync()
-      this.wh = test.windowHeight
+      this.wh = test.windowHeight - 50
       this.getCateList()
     },
     methods: {
@@ -57,6 +58,11 @@
       gotoGoodsList(item3) {
         uni.navigateTo({
           url:"/subpkg/goods_list/goods_list?cid="+item3.cat_id
+        })
+      },
+      myClickHandel() {
+        uni.navigateTo({
+          url:"/subpkg/search/search"
         })
       }
     }
