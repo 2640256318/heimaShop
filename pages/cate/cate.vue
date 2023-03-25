@@ -4,7 +4,7 @@
     <view class="scroll-view-container">
       <!-- 左侧的滑动区 -->
       <scroll-view scroll-y="true" :style="{height: wh + 'px'}" class="left-scroll-view">
-        <block v-for="(item,indpinkex) in cateList" :key="index" >
+        <block v-for="(item,index) in cateList" :key="index" >
           <view :class="['left-scroll-view-item',index === active ? 'active' : '']" @click="activeChange(index)">{{item.cat_name}}</view>
         </block>
       </scroll-view>

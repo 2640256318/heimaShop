@@ -37,7 +37,7 @@
         searchResults:[],
         //搜索历史的
         historyList:[]
-      };
+      }
     },
     onLoad(){
       this.historyList = JSON.parse(uni.getStorageSync('kw') || [])
