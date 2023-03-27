@@ -95,6 +95,5 @@
         "selectedIconPath": "static/tab_icons/my-active.png"
       }
     ]
-  },
-  "lazyCodeLoading": "requiredComponents"
+  }
 }

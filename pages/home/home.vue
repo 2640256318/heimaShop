@@ -42,7 +42,9 @@
 </template>
 
 <script>
+  import badgeMix from '../../mixins/tabar-badge.js'
   export default {
+    mixins:[badgeMix],
     data() {
       return {
         //存储轮播图的数据源

@@ -56,7 +56,8 @@
             "checkSiteMap":false
         },
         "usingComponents" : true,
-        "lazyCodeLoading":"requiredComponents"
+        "lazyCodeLoading":"requiredComponents",
+        "requiredPrivateInfos":["chooseAddress"]
     },
     "vueVersion" : "2"
 }
