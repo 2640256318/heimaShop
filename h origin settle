@@ -1,0 +1,53 @@
+[33mcommit f9dce8908bc6a4491d57bb6103e25acf4c1fa192[m[33m ([m[1;36mHEAD -> [m[1;32msettle[m[33m)[m
+Author: pic <2640256318@qq.com>
+Date:   Mon Mar 27 20:29:15 2023 +0800
+
+    'settle'
+
+[33mcommit 321d3e6b03661011d0cada867f0fa89149721637[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/cart[m[33m, [m[1;32mmain[m[33m)[m
+Author: pic <2640256318@qq.com>
+Date:   Mon Mar 27 16:23:46 2023 +0800
+
+    'cart'
+
+[33mcommit 02ff5686f16be193ba092e1a4ae69f310d29560f[m[33m ([m[1;31morigin/goodsdetail[m[33m)[m
+Author: pic <2640256318@qq.com>
+Date:   Sat Mar 25 18:46:39 2023 +0800
+
+    goodsdetail
+
+[33mcommit cb47556fe4151e1cbfd7457ed95997e829eeff5c[m[33m ([m[1;31morigin/goodslist[m[33m)[m
+Author: pic <2640256318@qq.com>
+Date:   Sat Mar 25 17:11:17 2023 +0800
+
+    good_list
+
+[33mcommit 406a1cb86489c24e83b289bfb2af0cfea6830fc4[m[33m ([m[1;31morigin/search[m[33m)[m
+Author: pic <2640256318@qq.com>
+Date:   Fri Mar 24 17:44:27 2023 +0800
+
+    search
+
+[33mcommit 041b6fae5aabbbf3a5f129017ff89e3ee0e589e7[m[33m ([m[1;31morigin/cate[m[33m)[m
+Author: pic <2640256318@qq.com>
+Date:   Thu Mar 23 18:29:24 2023 +0800
+
+    cate
+
+[33mcommit 1b434af3bb83dbb2ddd73368cd971036d4c36a47[m[33m ([m[1;31morigin/home[m[33m)[m
+Author: pic <2640256318@qq.com>
+Date:   Thu Mar 23 16:22:48 2023 +0800
+
+    首页提交
+
+[33mcommit abf0cab61c98e87f76517cf36dc0f8c17f60601e[m[33m ([m[1;31morigin/tabbar[m[33m)[m
+Author: pic <2640256318@qq.com>
+Date:   Wed Mar 22 18:15:19 2023 +0800
+
+    完成了tabbar
+
+[33mcommit ea5b7f546751bc9e631b794c02caef82d31b8367[m
+Author: pic <2640256318@qq.com>
+Date:   Wed Mar 22 17:28:35 2023 +0800
+
+    first commit
